@@ -72,7 +72,7 @@ public class UserController {
             user.setPassword(encodedPassword);
             i = userService.addUser(user);
         } catch (CodecException e) {
-            return 0;
+            return 100;
         } catch (UnknownAlgorithmException e) {
             return 0;
         }
