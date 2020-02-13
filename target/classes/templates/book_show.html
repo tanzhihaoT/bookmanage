@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="layui/layui.js"></script>
+    <style>
+        .layui-table-cell{
+            text-align:center;
+            height: auto;
+            white-space: normal;
+        }
+    </style>
+</head>
+<body>
+<table id="demo" lay-filter="test"></table>
+<script>
+    layui.use('table', function(){
+        var table = layui.table;
+
+        //第一个实例
+        table.render({
+            elem: '#demo'
+            ,height: 312
+            ,url: '/find_book.htmls/' //数据接口
+            ,page: true //开启分页
+            ,cols: [
+                [ //表头
+                {field: 'bid', title: 'ID'}
+                ,{field: 'bname', title: '书名'}
+                ,{field: 'bauthor', title: '作者'}
+                ,{field: 'bpress', title: '出版社'}
+                ,{field: 'bprice', title: '价格',sort: true}
+                ,{field: 'img', title: '图片',templet:'<div><img src="image/cat.jpg"></div>'}
+            ]
+            ]
+        });
+
+    });
+</script>
+</body>
+</html>
