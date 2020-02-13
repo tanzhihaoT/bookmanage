@@ -190,14 +190,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="34" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1581511127352" />
-    <state x="149" y="0" key="CommitChangelistDialog2" timestamp="1581581233504">
+    <state x="149" y="0" key="CommitChangelistDialog2" timestamp="1581581750409">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="149" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581581233504" />
-    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1581581708412">
+    <state x="149" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581581750409" />
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1581581855585">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581581708412" />
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581581855585" />
     <state x="469" y="255" width="366" height="170" key="Github.CreateGistDialog" timestamp="1581571530181">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -262,5 +262,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1581510394372" />
+    <state x="471" y="135" key="svn.repositoryBrowser" timestamp="1581581868294">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="471" y="135" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1581581868294" />
   </component>
 </project>
