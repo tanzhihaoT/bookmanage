@@ -61,6 +61,11 @@ public class UserController {
 
     }
 
+    /**
+     * 添加用户
+     * @param user
+     * @return
+     */
     @RequestMapping("addUser")
     @ResponseBody
     public int addUser(User user){
