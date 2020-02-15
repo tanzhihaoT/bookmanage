@@ -26,6 +26,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /**
+     * 跳转页面
+     * @return
+     */
     @RequestMapping("index.html")
     public String index(){
         return "index";
